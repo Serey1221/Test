@@ -1,0 +1,299 @@
+body{
+    background: rgb(237, 240, 243);
+}
+h1.logo.navbar-brand {
+    margin-left: 80px;
+}
+ul.navbar-nav {
+    float: right;
+    margin-left: 66%;
+    font-family: 'Siemreap', cursive;
+}
+i.fa.fa-shopping-cart {
+    padding-right: 40px;
+    cursor: pointer;
+}
+i.fa.fa-shopping-cart:hover{
+    color: blue;
+}
+a#btnLogin {
+    font-size: 19px;
+    color: rgb(31, 30, 30);
+}
+a#btnLogin:hover{
+    color: blue;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  /* search box */
+  .search-box-wrapper{
+      background: #fff;
+      position: relative;
+  }
+  ul.search-tabs.clearfix {
+    background: #fff;
+    margin: 10px;
+    padding: 5px;
+    font-family: 'Dangrek', cursive;
+}
+li.active.text-info {
+    float: left;
+    padding-right: 38px;
+    list-style: none;
+}
+li.text-warning {
+    float: left;
+    padding-right: 4px;
+    list-style: none;
+}
+.selector{
+    font-family: 'Siemreap';
+    font-size: 15px;  
+}
+.search-box.container {
+    margin-top: -40px;
+    background: #fff;
+}
+.search-tab-content{
+    padding: 30px 0;
+}
+.search-tab-content .tab-pane.active{
+    display: block;
+}
+.tab-pane .row{
+    margin-top: 0;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+label {
+    font-family: 'Siemreap';
+    font-size: 12px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: .9167em;
+}
+label.hidden-xs {
+    font-family: 'Siemreap';
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: .9167em;
+}
+h4.title {
+    font-family: 'Dangrek';
+    font-size: 18px;
+}
+input#tour-duration {
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 34px;
+}
+/* Card */
+.section{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.description.text-center h1{
+    font-family: 'Dangrek';
+    font-size: 24px;
+    margin-bottom: -38px;
+}
+.card-body {
+    font-family: 'Siemreap';
+    color: #0d1114;
+    margin-bottom: -20px;
+    font-size: 17px;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all .7s ease;
+}
+.inner:hover img{
+    transform: scale(1.2);
+}
+a.text-lg.post-title.entry-title {
+    color:#1c3550;
+}
+a.btn.mb-3.mr-1 {
+    background:#E5E3E3;
+    padding: 2px 5px 2px 5px;
+}
+a.btn.mb-3.mr-1:hover{
+    background: #194eb0;
+}
+a.btn.mb-3 {
+    background:#E5E3E3 ;
+    padding: 2px 5px 2px 5px;
+}
+a.btn.mb-3:hover{
+    background: #194eb0;
+}
+i.fas.fa-long-arrow-alt-left {
+    color: #fff;
+    margin: 1px 7px;
+}
+i.fas.fa-long-arrow-alt-right{
+    color: #fff;
+    margin: 1px 7px;
+}
+/* Group Card */
+.col-md-12 {
+    margin-top: 70px;
+}
+.text {
+    padding-left: 80px;
+}
+i.fas.fa-map-signs {
+    font-size: 32px;
+}
+.icon{
+    position: absolute;
+    background: #fdb714;
+    color: #fff;
+    padding: 12px 15px 10px;
+}
+.title{
+    font-family: 'Dangrek';
+    font-size: 23px;
+}
+p{
+    font-family: 'Siemreap';
+    font-size: 15px;
+}
+h4.box-title {
+    font-family: 'Dangrek';
+    font-size: 17px;
+    margin-top: -10px;
+    margin-bottom: -3px;
+    
+}
+small.pad-sm{
+    font-family: 'Siemreap';
+    font-size: 11px;
+    color: #b8b8b8;
+    padding-top: 10px;
+}
+a.button.btn-mini {
+    background: #E5E3E3;
+    color: #fff;
+    font-size: 12px;
+    padding: 1px 7px;
+    position: absolute;
+    margin-left: 70px;
+    margin-bottom: 0px;
+    margin-top: -10px;
+    margin-right: 10px;
+}
+a.button.btn-mini:hover{
+    background: #98ce44;
+}
+.text-center {
+    font-family: 'Dangrek';
+}
+a.button.btn-large.sky-blue1.kh-header.go-to-booking {
+    color: #fff;
+    background: #01b7f2;
+    padding: 0 32px;
+    height: 43px;
+    line-height: 43px;
+    font-size: .921em;
+}
+/* heart */
+i.fas.fa-heart {
+    font-size: 22px;
+}
+.icongroup{
+    position: absolute;
+    background: #e01a33;
+    color: #fff;
+    padding: 14px 17px 11px;
+}
+.title{
+    font-family: 'Dangrek';
+    font-size: 23px;
+}
+p{
+    font-family: 'Siemreap';
+    font-size: 15px;
+}
+.details{
+    background: #fff;
+    margin-right: -20px;
+}
+.price {
+    color: #7db921;
+    font-size: 1.6667em;
+    text-transform: uppercase;
+    float: right;
+    text-align: right;
+    line-height: 1;
+    display: block;
+}
+.price small {
+    display: block;
+    color: #838383;
+    font-size: .4em;
+    font-family: 'Siemreap';
+}
+.col-md-12.mb-6 {
+    margin-top: -40px;
+    text-align: right;
+    font-family: 'Dangrek';
+    font-size: 20px;
+}
+.box-title.text-lg.text-overflow{
+    line-height: 20px;
+    margin: 0;
+    padding: 8px;
+    color: #2d3e52;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.box-title.text-lg.text-overflow a{
+    color: #2d3e52;
+}
+.detail.tracking-product {
+    padding: 10px 11px;
+    margin: 0;
+    border-top: 1px solid #f5f5f5;
+    
+}
+#more {display: none;}
+.animated.fadeInDown{
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+}
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: ១៨px;
+    text-align: center;
+    font-family: 'Dangrek';
+  }  
+  .animated.fadeInDown:hover .overlay{
+      opacity: 1;
+  }
